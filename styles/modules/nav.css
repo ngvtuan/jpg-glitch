@@ -84,6 +84,13 @@
 	background-image: url(../../images/icon/content-save.svg);
 }
 
+.photo-button, 
+.share-toggle-button,
+.settings-button,
+.info-button {
+	display: none !important;
+}
+
 .photo-button::before {
 	background-image: url(../../images/icon/camera.svg);
 }
